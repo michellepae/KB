@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-// 1. Props 정의
+// Props 정의
 const props = defineProps({
   todoItem: { 
     type: Object, 
@@ -32,7 +32,7 @@ const props = defineProps({
   }
 });
 
-// 2. Emits 정의
+// Emits 정의
 defineEmits(['toggle-completed', 'delete-todo']);
 </script>
 
