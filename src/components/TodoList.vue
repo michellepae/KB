@@ -22,7 +22,7 @@
 <script setup>
 import TodoListItem from './TodoListItem.vue';
 
-// 1. Props 정의 (defineProps 사용)
+//  Props 정의 (defineProps 사용)
 const props = defineProps({
   todoList: {
     type: Array,
@@ -30,6 +30,6 @@ const props = defineProps({
   }
 });
 
-// 2. Emits 정의 (defineEmits 사용)
+//  Emits 정의 (defineEmits 사용)
 defineEmits(['delete-todo', 'toggle-completed']);
 </script>
